@@ -7,4 +7,6 @@ with st.container():
     st.title("Computer scientist from Los Angeles")
     st.write("Coding sucks!!!!")
     st.write("[LinkedIn>](https://www.linkedin.com/in/onikahmed)")
+with st.container():
+    st.write("---")
 
