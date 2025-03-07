@@ -9,4 +9,14 @@ with st.container():
     st.write("[LinkedIn>](https://www.linkedin.com/in/onikahmed)")
 with st.container():
     st.write("---")
-
+    left_column, middle_column, middle1_column, right_column = st.columns(4)
+    with left_column:
+        st.header("Column 1")
+        st.write("##")
+        st.write("Python")
+    with right_column:
+        st.header("Column 2")
+    with middle_column:
+        st.header("Column 3")
+    with middle1_column:
+        st.header("Column 4")
